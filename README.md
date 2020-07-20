@@ -1,2 +1,10 @@
-# 01SystemThinking hello again 2 tag !!
-01 system thinking version 01
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
