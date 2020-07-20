@@ -1,12 +1,11 @@
-1 add feature
-2
+1
+2 my feature 2
 3
-4
+4 my feature 2
 5
 6 another feature
 7
 8
 9
 10
-done feature
-
+done myfeature 2
