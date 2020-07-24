@@ -10,9 +10,18 @@ https://techtalk.vn/gioi-thieu-b-tree.html
 - 
 ### LSMtree (long structured merge tree)
 http://www.benstopford.com/2015/02/14/log-structured-merge-trees/
-### Bloom Filters
+### Bloom Filters (false positive) > Hash table
+https://lqm.now.sh/posts/bloom-filter-la-cai-veo-gi/
+- xác định phẩn tử có trong tập ?
+- cấu trúc dữ liệu xác xuất
+- băm - dãy bits 
+- dùng : hệ thống cache, csdl, kiểm tra tồn tại dữ liệu,.... 
 ### HyperLogLog
-
+https://viblo.asia/p/analytic-cho-nguoi-nong-dan-bai-toan-dem-so-aWj53L0GK6m
+https://ichi.pro/vi/post/2006913875381
+- cấu trúc dữ liệu xác xuất
+- dự đoán đếm số lượng lớn các yếu tốt riêng biệt (đếm số người dùng)
+- 
 # OOP
 https://quangnle.com/15-cau-hoi-thuong-gap-ve-oop/
 - đóng gói :private/public/protected
@@ -22,7 +31,7 @@ https://quangnle.com/15-cau-hoi-thuong-gap-ve-oop/
     + over loading: cùng tên hàm, khác tham số truyền vào
     + over riding: cùng tên hàm, khác cách hoạt động
 # SOLID (design pattern)
-( dễ hiuer, dễ duy trì, linh hoạt mở rộng)
+( dễ hiểu, dễ duy trì, linh hoạt mở rộng)
 https://topdev.vn/blog/solid-la-gi/
 - Single responsibility principle: 1 class - 1 trách nhiệm ( kế thừa)
 - Open-Closed principle : open for extension but closed for modification (kế thừa )
