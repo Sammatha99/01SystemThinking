@@ -47,3 +47,12 @@ https://topdev.vn/blog/solid-la-gi/
 - Interface segregation principle:1 interface lớn -> nhiều interface nhỏ với nhiều mục đích cụ thể
 - Dependency inversion principle:module cấp cao không nên phụ thuộc các module cấp thấp. abs không nên phụ thuộc vào chi tiết (đa hình + kế thừa)
 
+
+Câu hỏi ?
+phần ctdl&gt:
+- có thư viện nào thiết kế sẵn ko ?
+- hyperloglog/boom filters : nên sử dụng loại hàm hash nào ?
+- hyperloglog : khó hỉu cách tính kết quả xác xuất của nó ?
+- hyperloglog : kiểm soát sai số bằng cách nào ?
+
+
