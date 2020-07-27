@@ -28,7 +28,7 @@ https://odino.org/my-favorite-data-structure-hyperloglog/
 - cấu trúc dữ liệu xác xuất (đếm phong cách xác xuất))
 - dự đoán đếm số lượng lớn các yếu tốt riêng biệt (đếm số người dùng)
 - hash (phù hợp ??) & bucket(chữ số đầu): dùng cái maximun -> tính trung bình ra kết quả
-
+- càng nhiều bucket càng chính xác
 # OOP
 https://quangnle.com/15-cau-hoi-thuong-gap-ve-oop/
 - đóng gói :private/public/protected        
