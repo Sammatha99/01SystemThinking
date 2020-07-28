@@ -5,7 +5,7 @@ https://viblo.asia/p/mot-it-ve-b-tree-XL6lAPPrZek
 https://techtalk.vn/gioi-thieu-b-tree.html
 - còn được gọi là cây mập, O(h)
 - Btree bậc M, mỗi node ít nhất M/2 node con (-root), mỗi node M-1 khóa
-- nó mập nên nó thấp, giảm số lượng truy xuất xuống hard drive
+- nó mập nên nó thấp, giảm số lượng truy cập hard 
 - xóa keys ? 
 - 
 
@@ -53,8 +53,7 @@ https://topdev.vn/blog/solid-la-gi/
 Câu hỏi ?
 phần ctdl&gt:
 - có thư viện nào thiết kế sẵn ko ?
-- hyperloglog/boom filters : nên sử dụng loại hàm hash nào ?
 - hyperloglog : khó hỉu cách tính kết quả xác xuất của nó ?
-- hyperloglog : kiểm soát sai số bằng cách nào ?
+- 
 
 
