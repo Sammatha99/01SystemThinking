@@ -12,6 +12,8 @@ https://techtalk.vn/gioi-thieu-b-tree.html
 ### LSMtree (long structured merge tree) (write))
 http://www.benstopford.com/2015/02/14/log-structured-merge-trees/
 compaction: https://www.datastax.com/blog/2011/10/leveled-compaction-apache-cassandra
+
+![LSM](https://user-images.githubusercontent.com/38234300/88642046-2cc11f00-d0ea-11ea-9889-8d0ec1720cda.png)
 - (luôn sorted trc khi ghi): mỗi file chứa 1 loạt các thay đổi trong 1 khoản time -> update mới đc đưa vào file mới khác -> đọc tất cả file -> các tập tin sẽ đc định merge(basic/levelled compaction) lại để số lượng file giảm xuống
 - thường sử dụng bloom filters, paging index trong này
 
