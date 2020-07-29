@@ -31,12 +31,20 @@ https://odino.org/my-favorite-data-structure-hyperloglog/
 - dự đoán đếm số lượng lớn các yếu tốt riêng biệt (đếm số người dùng)
 - hash (phù hợp ??) & bucket(chữ số đầu): dùng cái maximun -> tính trung bình ra kết quả
 - càng nhiều bucket càng chính xác
+
 # OOP
 https://quangnle.com/15-cau-hoi-thuong-gap-ve-oop/
-- đóng gói :private/public/protected        
-- kế thừa : public
-- trừ tượng : abstract class
-- đa hình : phương thức giống tên, những có cách thực hiện khác nhau dựa theo từng class
+https://www.geeksforgeeks.org/java-not-purely-object-oriented-language/
+- WHAT ?
+	+ Đối xử mọi thứ trong chương trình như đối tượng ( dữ liệu: thuộc tính . hoạt động : phương thức)
+- PURE OOP
+1. Đóng gói/ẩn dữ liệu: che giấu thông tin, mỗi lớp đối tượng đóng gói chứ năng riêng của nó
+2. Kế thừa
+3. Đa hình
+4. Trừu tượng: tổng quát hóa các thuộc tính , phương thức cần thiết. ẩn chi tiết triển khai, hiện thị tính năng tới user
+5. các loại được xác định trước đều là đối tượng
+6. các loại được users xác định sau là đối tượng
+7. các hoạt động trên đối tượng đều là thông qua phương thức của nó
     + over loading: cùng tên hàm, khác tham số truyền vào
     + over riding: cùng tên hàm, khác cách hoạt động
 
@@ -50,10 +58,5 @@ https://topdev.vn/blog/solid-la-gi/
 - Dependency inversion principle:module cấp cao không nên phụ thuộc các module cấp thấp. abs không nên phụ thuộc vào chi tiết (đa hình + kế thừa)
 
 
-Câu hỏi ?
-phần ctdl&gt:
-- có thư viện nào thiết kế sẵn ko ?
-- hyperloglog : khó hỉu cách tính kết quả xác xuất của nó ?
-- 
 
 
