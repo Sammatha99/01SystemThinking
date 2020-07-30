@@ -2,7 +2,6 @@ package Animal;
 
 import Animal.Animal1.Animal3.Cat;
 import Animal.Animal1.Animal3.Lion;
-import Animal.Animal1.Feline;
 import Animal.Animal2.Animal3.Dog;
 import Animal.Animal2.Animal3.Wolf;
 
