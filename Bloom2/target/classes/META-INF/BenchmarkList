@@ -1,0 +1,2 @@
+JMH S 19 benchmark.BenchMark S 49 benchmark.generated.BenchMark_searchBloom_jmhTest S 11 searchBloom S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 3 E E I 1 1 E E L 2 6 -Xms2G 6 -Xmx2G E E M 1 13 numberOfWords 1 7 1000000 U 12 MICROSECONDS E E 
+JMH S 19 benchmark.BenchMark S 48 benchmark.generated.BenchMark_searchTrie_jmhTest S 10 searchTrie S 11 AverageTime E A 1 1 1 E I 1 1 E E I 1 3 E E I 1 1 E E L 2 6 -Xms2G 6 -Xmx2G E E M 1 13 numberOfWords 1 7 1000000 U 12 MICROSECONDS E E 
