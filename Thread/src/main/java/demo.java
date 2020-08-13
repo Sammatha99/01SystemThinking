@@ -35,6 +35,7 @@ public class demo {
         b.start();
         a.join();
         b.join();
+
          System.out.println(count.getCount());*/
 
         ThreadImRunnable shareThread = new ThreadImRunnable();
