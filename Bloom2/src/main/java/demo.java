@@ -1,4 +1,4 @@
-import Dictionary.Bloom;
+﻿import Dictionary.Bloom;
 import Dictionary.Trie;
 import org.xml.sax.SAXException;
 
@@ -32,14 +32,6 @@ public class demo {
 }
 
 /*
-bt1:
-fix lại file thành interface phù hợp với mỗi loại dic sử dụng
-tìm cách để p = 0.01
-tìm cthuc lien quan giữa n và length bit set và số hàm hash
-làm benchmark
-
-Bt2 : hash table
-
 bt3 :  multithread , concurrency !!!!!!!!
 
 bt4 :
