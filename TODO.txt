@@ -1,0 +1,32 @@
+bt3 : parallelism + concurrency + thread
+
+bt4 :
+database : ddl , dml
+relational db : sql ascii 92
+
+noSQL  : mấy loại
+redis dùng loại nào
+
+bt5 : module 3
+
+TOMORROW
+========================
+1. design pattern
+2. enteprise integration pattern (distributed system)
+3. mySQL , Redis => (storage / cache)
+
+========================
+1. 2 hard thing (computer science)
+ - cache invalidation
+ - naming thing
+2. // (distributed system)
+ - message order
+ - delivery once
+3. microservices
+4. SOA
+5. CAP theory
+6. event based system (message queue => koflca  + redis)
+7. protocol ... IDL (serialize + deserialize)
+
+=======================
+Nodejs ?

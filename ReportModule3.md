@@ -1,3 +1,4 @@
+# PARRALLELISM & CONCURRENCY
 ### PARRALLELISM
 - Chia 1 task thành nhiều sub-tasks chạy song song (cpu 1 core ko dùng đc )
 - xử lý từng task riêng biệt
@@ -12,11 +13,14 @@
 https://www.geeksforgeeks.org/difference-between-concurrency-and-parallelism/
 - nên hc cách kiểm soát nếu làm multithread với các nguồn ( memory, files, db ,..) (race condition)
     + https://stackoverflow.com/questions/34510/what-is-a-race-condition/34745#34745 
-- Sử dụng đa luồng 
+- Sử dụng đa luồng  (thread)
     + extend Thread
     + implements Runnable (thường dùng nếu muốn share thuộc tính giữa các luồng )
+	+ sleep() , stop() -> doStop() : tự viết , chia các block synchronized bự thành các synchronized nhỏ để nhìu thread sử dụng hơn
 - Đồng bộ đa luồng
-    + synchronized(object hoặc phương thức) 
+    + synchronized (object hoặc phương thức) 
+	+ immutableObject ( object bất biến)
+	+ Semaphore (cho nhiều hơn 1 thread do dùng block)
 link tham khảo: 
  + http://tutorials.jenkov.com/java-concurrency/index.html
 
@@ -32,3 +36,41 @@ link tham khảo:
 + Functional Parallelism
 	1. 
 	
+# DATABASE
+https://www.w3schools.in/mysql/ddl-dml-dcl/
+![alt](https://github.com/Sammatha99/01SystemThinking/issues/2#issue-680724907)
+### DDL (data  definition language)
+- xác định cấu trức dữ liệu ( tạo, xóa, lược đồ  ... )
+- 
+### DML (data manipulation language)
+- thao tác dữ liệu ( sử đổi, truy xuất, xóa, cập nhập ,... )
+
+### DCL 
+- điều khiển dữ liệu ( quyền truy cập, điều kiển dl của người dùng)
+
+### TCL
+- kiểm soát giao dịch
+
+### SQL 
+- cở sở dữ liệu quan hệ 
+- dựa trên bảng
+- mở rộng bằng cách tăng phần cứng, mở rộng theo chiều dọc
+- vd : MySql, Oracle, Sqlite, Postgres, MS-SQL
+
+### noSQL 
+- cơ sở dữ liệu không liên quan (quan hệ) = cơ sở dữ liệu phân tán
+- mở rộng bằng cách tăng số lượng máy chủ cơ sở dữ liệu, mở rộng theo chiều ngang
+- big data , dữ liệu phân cấp 
+- vd : MongoDB, BigTable, Redis, RavenDb, Cassandra, Hbase, Neo4j, CouchBd
+
+### Redis (REmote DIctionary Server)
+- loại noSQL 
+- thường dùng cho lưu trữ bộ nhớ đệm, quản lý phiên, trò chuyện/nhắn tin
+
+
+
+
+
+
+
+

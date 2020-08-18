@@ -1,26 +1,39 @@
 class ThreadExtendThread extends Thread {
-    private  String name;
-
-    public ThreadExtendThread(Addcount a , String name){
-        this.name = name;
+    private  Addcount addcount = null;
+    public ThreadExtendThread(Addcount addcount){
+        this.addcount = addcount;
     }
-    public void run(Addcount a){
+
+    public void run(){
         for (int i=0; i < 1000; i++) {
-            //a.add();
+            try {
+                addcount.add();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            try {
+                Thread.sleep(1);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("ID:" + Thread.currentThread().getId() +
+                    ", Name: " + Thread.currentThread().getName()
+                    + ", shareVariable = " + addcount.getCount() /*shareVar*/);
         }
     }
 }
 
 
 class ThreadImRunnable implements Runnable {
-    private int shareVar = 0 ;
+    private int shareVar = 0 ; //biến share
 
     public int getShareVar() {
         return shareVar;
     }
 
-    public /*synchronized*/ void addVar (){
-        shareVar++ ;
+    public synchronized void addVar (){
+        synchronized (this){
+            shareVar++;}
     }
 
     public void run() {
@@ -29,7 +42,6 @@ class ThreadImRunnable implements Runnable {
             System.out.println("ID:" + Thread.currentThread().getId() +
                     ", Name: " + Thread.currentThread().getName()
                     + ", shareVariable = " + shareVar);
-
             try {
                 Thread.sleep(1);
             } catch (InterruptedException e) {
