@@ -1,13 +1,13 @@
 bt3 : parallelism + concurrency + thread
 
 bt4 :
-database : ddl , dml
-relational db : sql ascii 92
+database : ddl , dml - done
+relational db : sql ascii 92 ???
 
-noSQL  : mấy loại
-redis dùng loại nào
+noSQL  : mấy loại - done
+redis dùng loại nào  - done 80%
 
-bt5 : module 3
+bt5 : module 3 ? next week ?
 
 TOMORROW
 ========================

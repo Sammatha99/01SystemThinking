@@ -66,7 +66,7 @@ https://www.w3schools.in/mysql/ddl-dml-dcl/
 ### Redis (REmote DIctionary Server)
 - loại noSQL 
 - thường dùng cho lưu trữ bộ nhớ đệm, quản lý phiên, trò chuyện/nhắn tin
-
+- cấu trúc dữ liệu linh hoạt : chuỗi, danh sách, tập đc sắp xếp, mã hash, bitmap, hyperloglog
 
 
 
