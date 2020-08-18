@@ -26,15 +26,15 @@ link tham khảo:
 
 ### concurrency models (share state & separate state)
 - parallel workers (vd: car factory): dễ hỉu, dễ thêm parallelization = thêm vào "workers"
-    1. share state trở nên phức tạp
+	+ share state trở nên phức tạp
 	+ một phần ko còn là parallel khi workers phải đợi phiên truy cập vào share data ( sử dụng non-blocking concurrency / persistent data structure)
 	+ Stateless workers (việc reload (đọc) data nhiều lần) => chậm
 	+ thứ tự thực hiện job ko xác định
-+ Assembly line (=reactive systems = event driven systems:(Vert/x , akka,, node.js))( worker -> next worker -> ...) ( tương tự là: actor model và channel model) : các thread chạy ko share state, ko dùng non-blocking io, stateful worker nhanh hơn, thứ tự worker sắp xếp đc
-    1. callback hell
+- Assembly line (=reactive systems = event driven systems:(Vert/x , akka,, node.js))( worker -> next worker -> ...) ( tương tự là: actor model và channel model) : các thread chạy ko share state, ko dùng non-blocking io, stateful worker nhanh hơn, thứ tự worker sắp xếp đc
+	+ callback hell
 	+ khó biết được workers đang  thực thi công việc ( code) nào
-+ Functional Parallelism
-	1. 
+- Functional Parallelism
+	+ 
 	
 # DATABASE
 https://www.w3schools.in/mysql/ddl-dml-dcl/
