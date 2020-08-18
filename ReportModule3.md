@@ -37,8 +37,8 @@ link tham khảo:
 	1. 
 	
 # DATABASE
- https://www.w3schools.in/mysql/ddl-dml-dcl/
- ![alt](https://github.com/Sammatha99/01SystemThinking/issues/2#issue-680724907)
+https://www.w3schools.in/mysql/ddl-dml-dcl/
+![image](https://user-images.githubusercontent.com/38234300/90476767-594de100-e154-11ea-85fb-13cf256a59b9.png)
 ### DDL (data  definition language)
 - xác định cấu trức dữ liệu ( tạo, xóa, lược đồ  ... )
 - 
