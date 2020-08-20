@@ -8,6 +8,10 @@ noSQL  : mấy loại - done
 redis dùng loại nào  - done 80%
 
 bt5 : module 3 ? next week ?
+ - xây dựng database (tài khoản , tài khoản đang onl, lịch sử chat) 
+ - login / sign up
+ - 
+
 
 TOMORROW
 ========================
@@ -30,4 +34,4 @@ TOMORROW
 
 =======================
 Nodejs ?
-https://giahuyng98.github.io/
+
